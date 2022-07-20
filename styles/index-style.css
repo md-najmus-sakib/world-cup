@@ -101,6 +101,14 @@ body {
     border-radius: 10px;
 }
 
+.upcoming-match-link:hover {
+    background-image: linear-gradient(to bottom right, rgb(225, 81, 81), orangered);
+}
+
+.upcoming-match-blog:hover {
+    background-image: linear-gradient(to bottom right, rgb(225, 81, 81), orangered);
+}
+
 /* bos section end  */
 
 
