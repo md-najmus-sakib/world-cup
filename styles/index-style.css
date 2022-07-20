@@ -11,7 +11,7 @@ body {
 
 /* banner styles */
 .banner {
-    background-color: #161616;
+    background-color: #2d4a55;
     width: 1330px;
     height: 550px;
     margin-top: 50px;
@@ -114,7 +114,7 @@ body {
     background-image: linear-gradient(to bottom right, rgb(225, 81, 81), orangered);
 }
 
-/* bos section end  */
+/* box section end  */
 
 
 .match-reply {
@@ -167,6 +167,9 @@ body {
 
 /* previous match section style end*/
 
+.view-all-button {
+    visibility: hidden;
+}
 
 /* footer styles */
 footer {
@@ -200,6 +203,13 @@ footer hr {
     margin-left: 35px;
 }
 
+.footer-anchor-link2 {
+    text-decoration: none;
+    color: #B9B9B9;
+    font-size: 16px;
+    margin-left: 35px;
+}
+
 .footer-icon {
     margin-top: 50px;
     margin-left: 645px;
@@ -209,4 +219,97 @@ footer hr {
     color: #B9B9B9;
     margin-left: 30px;
     font-size: 40px;
+}
+
+
+/* styles for Tablet */
+
+@media only screen and (min-width:668px) and (max-width:1024px) {
+    .banner {
+        background-color: #2d4a55;
+        width: 862px;
+        height: 398px;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .banner-text-section {
+        margin-top: 5px;
+        margin-left: 60px;
+    }
+
+    .banner-text-section h1 {
+        font-size: 42px;
+    }
+
+    .banner-text-section p {
+        font-size: 14px;
+        margin-bottom: 45px;
+    }
+
+    .banner-button {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    #banner-image {
+        margin-top: 20px;
+        margin-left: 90px;
+        height: 372px;
+    }
+
+    .upcoming-match {
+        background-color: #FFFFFF;
+        width: 800px;
+        height: 65px;
+        margin-bottom: 100px;
+    }
+
+    .upcoming-match-div {
+        display: flex;
+    }
+
+    .upcoming-match-div a {
+        border: 1px solid gray;
+    }
+
+    .previous-match {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .match-reply {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .view-all-button a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 20px;
+        background-color: #DD0000;
+        padding: 13px;
+        border-radius: 5px;
+    }
+
+    .view-all-button {
+        visibility: visible;
+        margin-top: 80px;
+        margin-left: 450px;
+    }
+
+    footer {
+        width: 993px;
+        height: 420px;
+        margin-top: 80px;
+    }
+
+    .footer-icon {
+        margin-left: 380px;
+    }
+
+    .footer-anchor {
+        margin-left: 50px;
+    }
 }
