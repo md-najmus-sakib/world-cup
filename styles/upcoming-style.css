@@ -59,13 +59,6 @@ body {
 }
 
 
-/* previous match section style start*/
-.previous-match {
-    display: flex;
-    margin-top: 130px;
-    margin-left: 90px;
-}
-
 /* box section start */
 .upcoming-match {
     background-color: #161616;
@@ -102,57 +95,6 @@ body {
 }
 
 /* bos section end  */
-
-
-.match-reply {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 24px;
-    grid-column-gap: 24px;
-}
-
-.match-preview {
-    width: 312px;
-    height: 350px;
-    border-radius: 10px;
-    border: 0.5px solid rgb(228, 222, 222);
-}
-
-.match-preview a p {
-    font-size: 16px;
-    text-align: center;
-    border: 1px solid gray;
-    width: 100px;
-    height: 22px;
-    border-radius: 5px;
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
-.match-preview a {
-    text-decoration: none;
-    color: #161616;
-}
-
-.match-preview h4 {
-    font-size: 18px;
-    margin: 20px;
-}
-
-.match-info {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 140px;
-}
-
-.fa-regular {
-    margin-right: 10px;
-}
-
-/* previous match section style end*/
 
 
 /* footer styles */
