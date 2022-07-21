@@ -331,6 +331,7 @@ footer hr {
 /* styles for mobile  */
 
 @media only screen and (max-width:667px) {
+
     .banner-text {
         display: block;
     }
@@ -343,12 +344,13 @@ footer hr {
     }
 
     .banner-text-section {
-        margin-left: 20px;
+        margin-left: 0px;
     }
 
     .banner-text-section h1 {
         font-size: 22px;
         text-align: center;
+        margin-top: 10px;
     }
 
     .banner-text-section p {
@@ -360,7 +362,7 @@ footer hr {
     .banner-button {
         padding: 6px;
         font-size: 18px;
-        margin-left: 90px;
+        margin-left: 102px;
     }
 
     #banner-image {
