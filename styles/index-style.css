@@ -183,6 +183,8 @@ footer h2 {
     text-align: center;
     color: #FFFFFF;
     font-size: 40px;
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
 
 footer hr {
@@ -192,6 +194,7 @@ footer hr {
 }
 
 .footer-anchor {
+    display: flex;
     margin-top: 50px;
     margin-left: 351px;
 }
@@ -310,6 +313,118 @@ footer hr {
     }
 
     .footer-anchor {
+        display: block;
         margin-left: 50px;
+    }
+
+    .upper-footer {
+        margin-left: 130px;
+    }
+
+    .lower-footer {
+        margin-top: 30px;
+        margin-left: 330px;
+    }
+}
+
+
+/* styles for mobile  */
+
+@media only screen and (max-width:667px) {
+    .banner-text {
+        display: block;
+    }
+
+    .banner {
+        width: 334px;
+        height: 483px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .banner-text-section {
+        margin-left: 20px;
+    }
+
+    .banner-text-section h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .banner-text-section p {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .banner-button {
+        padding: 6px;
+        font-size: 18px;
+        margin-left: 90px;
+    }
+
+    #banner-image {
+        margin-top: 25px;
+        margin-left: 70px;
+        height: 230px;
+    }
+
+    .upcoming-match {
+        background-color: #FFFFFF;
+    }
+
+    .upcoming-match a {
+        border: 1px solid gray;
+    }
+
+    .previous-match {
+        display: block;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+
+    .match-reply {
+        margin-top: 0px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    footer {
+        height: 480px;
+        margin-top: 50px;
+    }
+
+    footer h2 {
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    footer hr {
+        width: 335px;
+    }
+
+    .footer-anchor {
+        display: block;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    .footer-anchor-link {
+        display: block;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 13px;
+    }
+
+    .footer-anchor-link2 {
+        display: block;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 13px;
+    }
+
+    .footer-icon {
+        margin-top: 50px;
+        margin-left: 62px;
     }
 }
